@@ -3,9 +3,10 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import yourImage from '../assets/images/liam-hackett.png'; 
+import arrow from '../assets/images/arrow.svg';
 import { Link } from 'react-router-dom';
 import About from './About'
-import Contact from './Contact';
+// import Contact from './Contact';
 
 const Body = () => {
   return (
@@ -35,8 +36,14 @@ const Body = () => {
             </div>
           </Col>
         </Row>
+        <Row>
+        <Col xs ={1} className="arrow-col">
+          <a href="#about" className="scroll-link">
+            <img src={arrow} alt="Arrow" className="down-arrow" />
+          </a>
+        </Col>
+        </Row>
       </Container>
-
       {/* Social Media Icons */}
       <div className="social-icons">
         <hr className="vertical-hr"></hr>
@@ -46,7 +53,7 @@ const Body = () => {
           rel="noopener noreferrer"
           className="icon-link"
         >
-          <FontAwesomeIcon icon={['fab', 'github']} size="1x" className="icon-spacing icon-hover" />
+          <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="icon-spacing" />
         </a>
         <a
           href="https://www.linkedin.com/in/william-j-hackett/"
@@ -54,11 +61,13 @@ const Body = () => {
           rel="noopener noreferrer"
           className="icon-link"
         >
-          <FontAwesomeIcon icon={['fab', 'linkedin']} size="1x" className="icon icon-hover" />
+          <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" className="icon" />
         </a>
       </div>
       </div>
-      <About></About>
+      <div id="about">
+        <About></About>
+      </div>
       {/* <Contact></Contact> */}
     </div>
     

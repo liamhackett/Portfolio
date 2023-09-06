@@ -41,6 +41,9 @@ const About = () => {
         <Row>
           <SkillList></SkillList>
         </Row>
+        <Row>
+        <hr className="divider" />
+      </Row>
       </Container>
   );
 };

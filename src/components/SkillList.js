@@ -10,7 +10,7 @@ const SkillList = () => {
     
     const react = {
         name: "React",
-        picture: "/assets/images/react.jpg"
+        picture: "/assets/images/react.svg"
     }
     const javaScript = {
         name: "JavaScript",
@@ -19,12 +19,12 @@ const SkillList = () => {
     
     const html = {
         name: "HTML",
-        picture: "/assets/images/html.jpg"
+        picture: "/assets/images/html.svg"
     };
     
     const css = {
         name: "CSS",
-        picture: "/assets/images/css.png"
+        picture: "/assets/images/css.svg"
     };
     
     const sql = {
@@ -39,16 +39,20 @@ const SkillList = () => {
     
     const swift = {
         name: "Swift/SwiftUI",
-        picture: "/assets/images/swift.png"
+        picture: "/assets/images/swift.svg"
     }
     
     const cpp = {
         name: "C++",
         picture: "/assets/images/cpp.png"
     }
+    const java ={
+        name: "Java",
+        picture:"/assets/images/java.svg"
+    }
     
     
-const skills = [python, react, javaScript, html, css, git, sql, swift, cpp ];
+const skills = [react, javaScript, html, css, git, sql, python, swift, cpp, java];
     
 const skillCards = skills.map((skill, index) => (
     <div key={index} className="skill-card">

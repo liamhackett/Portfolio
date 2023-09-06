@@ -52,6 +52,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;
+    cursor: default;
   }
   @media screen and (max-width: 1250px) {
     .grid-container {
@@ -74,10 +75,10 @@
         justify-items: center;
         grid-auto-rows: minmax(100px, auto);
         width: 60vw;
-      }
+    }
       .skill-card {
-       margin-top: 10px;
-       margin-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
        
-      }
+    }
   }
