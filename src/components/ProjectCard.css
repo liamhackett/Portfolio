@@ -1,0 +1,57 @@
+.project-card {
+    height: 500px;
+    width: 400px;
+    background-color: #333b4b;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    /* border: 1px solid rgba(248, 196, 111, .75); */
+    /* border-radius: 1em; */
+}
+
+.artist-site {
+    background-image: url("/public/assets/images/singing.jpeg");
+}
+
+
+.project-text-box {
+    height: 500px;
+    width: 400px;
+    opacity: 0;
+    background-color: #333b4b8f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-text{
+    background-color: rgba(248, 196, 111, 0);
+}
+
+.project-text-p{
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 20px;
+    background-color: rgba(248, 196, 111, 0);
+}
+
+.project-card:hover .project-text-box{
+    opacity: 1;
+}
+
+.btn-custom-card {
+    background-color: #282c34; 
+    border-color: rgb(248, 196, 111) !important; 
+    color: rgb(248, 196, 111) !important; 
+    width: 125px;
+  }
+  
+  .btn-custom-card:hover {
+    background-color: rgba(248, 196, 111, 0.7) !important; 
+    border-color: rgb(248, 196, 111) !important; 
+    color: white !important; 
+  }
+  

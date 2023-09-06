@@ -1,0 +1,18 @@
+.resume-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resume{
+    height: 1000px;
+    margin-bottom: 5vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 750px) {
+    .resume{
+        height: 700px;
+    }
+}

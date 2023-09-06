@@ -7,6 +7,7 @@ import arrow from '../assets/images/arrow.svg';
 import { Link } from 'react-router-dom';
 import About from './About'
 // import Contact from './Contact';
+// import Projects from './Projects';
 
 const Body = () => {
   return (
@@ -68,6 +69,7 @@ const Body = () => {
       <div id="about">
         <About></About>
       </div>
+      {/* <Projects></Projects> */}
       {/* <Contact></Contact> */}
     </div>
     
