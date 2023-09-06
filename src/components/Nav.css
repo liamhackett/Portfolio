@@ -1,0 +1,42 @@
+
+* {
+    color: white !important;
+    
+}
+
+.navbar {
+    background-color: #282c34;
+}
+.navbar-nav .nav-link {
+    color: gray !important;
+    margin: 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+.nav-link.active{
+    color: white !important;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgba(248, 196, 111, 0.674) !important;
+}
+.logo:hover{
+    color: rgb(248, 196, 111) !important;
+}
+
+
+.custom-toggle {
+    color: white !important;
+    background-color: rgb(248, 196, 111) !important;
+}  
+
+.navbar-toggler-icon {
+    color: white !important;
+    background-color: rgb(248, 196, 111) !important;
+}

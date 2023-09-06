@@ -1,0 +1,84 @@
+/* Body.css */
+.body-container {
+    position: relative;
+    height: calc(100vh - 56px); /* Subtract navbar height (adjust as needed) */
+    display: flex;
+    background-color: #282c34; /* Background color for the body */
+    color: white; /* Text color for the body */
+    width: 100vw;
+    padding-top: 10vh;
+    overflow-x: hidden;
+  }
+  
+  .smaller-text {
+    font-size: 80%; 
+}
+  .content {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px; /* Control the maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: left;
+    margin-left: 5vw;
+    justify-content: center;
+  }
+  
+  .text-left {
+    flex: 1;
+  }
+  .name{
+    color: rgb(248, 196, 111) !important;
+    font-weight: bold;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    margin: 30px; 
+    padding: 10px;
+  }
+  
+  .icon {
+    margin-bottom: 50px; 
+  }
+  .icon-spacing{
+    margin-bottom: 25px;
+  }
+
+  .icon-link:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .btn-custom {
+    background-color: #282c34; 
+    border-color: rgb(248, 196, 111) !important; 
+    color: rgb(248, 196, 111) !important; 
+    width: 100px;
+  }
+  
+  .btn-custom:hover {
+    background-color: rgba(248, 196, 111, 0.7) !important; 
+    border-color: rgb(248, 196, 111) !important; 
+    color: white !important; 
+  }
+  
+
+  .vertical-hr {
+    border: none;
+    border-left: 4px solid rgb(248, 196, 111); 
+    height: 75px; 
+    transform: rotate(180deg); 
+    opacity: 100;
+    margin: 10px 5px; 
+  }
+
+  .image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 1px solid rgb(248, 196, 111);
+  }
