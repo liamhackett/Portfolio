@@ -2,53 +2,65 @@ import React from 'react';
 import SkillCard from './SkillCard'; // Import the SkillCard component
 import './SkillCard.css'
 
+import pythonImage from './images/python.png';
+import reactImage from './images/react.svg';
+import javaScriptImage from './images/javascript.png';
+import htmlImage from './images/html.svg';
+import cssImage from './images/css.svg';
+import sqlImage from './images/sql.png';
+import gitImage from './images/git.png';
+import swiftImage from './images/swift.svg';
+import cppImage from './images/cpp.png';
+import javaImage from './images/java.svg';
+
+
 const SkillList = () => {
     const python = {
         name: "Python",
-        picture: "./../../public/assets/images/python.png"
+        picture: pythonImage
     };
     
     const react = {
         name: "React",
-        picture: "/assets/images/react.svg"
+        picture: reactImage
     }
     const javaScript = {
         name: "JavaScript",
-        picture:"/assets/images/javascript.png"
+        picture:javaScriptImage
     };
     
     const html = {
         name: "HTML",
-        picture: "/assets/images/html.svg"
+        picture: htmlImage
     };
     
     const css = {
         name: "CSS",
-        picture: "/assets/images/css.svg"
+        picture: cssImage
     };
     
     const sql = {
         name: "SQL",
-        picture: "/assets/images/sql.png"
+        picture: sqlImage
     }
     
     const git = {
         name: "Git Source Control",
-        picture: "/assets/images/git.png"
+        picture: gitImage
     }
     
     const swift = {
         name: "Swift/SwiftUI",
-        picture: "/assets/images/swift.svg"
+        picture: swiftImage
     }
     
     const cpp = {
         name: "C++",
-        picture: "/assets/images/cpp.png"
+        picture: cppImage
     }
     const java ={
         name: "Java",
-        picture:"/assets/images/java.svg"
+        picture: javaImage
     }
     
     
