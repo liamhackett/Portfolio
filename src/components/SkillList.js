@@ -5,7 +5,7 @@ import './SkillCard.css'
 const SkillList = () => {
     const python = {
         name: "Python",
-        picture: "/assets/images/python.png"
+        picture: "./../../public/assets/images/python.png"
     };
     
     const react = {
