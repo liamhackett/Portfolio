@@ -6,6 +6,7 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    margin-top: 25px;
     /* border: 1px solid rgba(248, 196, 111, .75); */
     /* border-radius: 1em; */
 }
@@ -14,6 +15,13 @@
     background-image: url("/public/assets/images/singing.jpeg");
 }
 
+.spotipi {
+    background-image: url("/public/assets/images/spotipi.jpg");
+    opacity: .8;
+}
+.chess {
+    background-image: url("/public/assets/images/chess.jpeg");
+}
 
 .project-text-box {
     height: 500px;
@@ -55,3 +63,15 @@
     color: white !important; 
   }
   
+  @media screen and (max-width: 1250px) {
+    .project-card{
+        margin: 10px auto;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .project-card{
+        width: 390px;
+        margin: 10px auto;
+    }
+  }

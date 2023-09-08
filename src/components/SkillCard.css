@@ -63,22 +63,76 @@
         width: 60vw;
       }
       .skill-card {
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
+        margin: 15px;
+        width: 300px !important;
+        height: 300px;
+    }
+    .card-image {
+      height: 200px;
+      width: 200px;
+    }
+    .card-text{
+      font-size: x-large;
+    }
   }
-
+/* 
   @media screen and (max-width: 750px) {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, minmax(200px, 1fr)); 
         justify-items: center;
+        justify-content: center;
+        align-items: center;
         grid-auto-rows: minmax(100px, auto);
         width: 60vw;
     }
-      .skill-card {
+    .skill-card {
         margin-top: 10px;
         margin-bottom: 10px;
-       
+        width: 250px !important;
+        height: 250px;
     }
+    .card-image {
+      height: 175px;
+      width: 175px;
+    }
+    .card-text{
+      font-size: larger;
+    }
+  } */
+  /* ... (previous CSS) */
+
+@media screen and (max-width: 750px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-auto-rows: minmax(100px, auto);
+    width: 60vw;
   }
+
+  .skill-card {
+    width: 250px !important;
+    height: 250px;
+    padding: 0; 
+    margin: 0; 
+    margin: 10px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+    cursor: default;
+  }
+
+  .card-image {
+    height: 175px;
+    width: 175px;
+  }
+
+  .card-text {
+    font-size: larger;
+  }
+}

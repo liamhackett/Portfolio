@@ -6,16 +6,14 @@ import yourImage from '../assets/images/liam-hackett.png';
 import arrow from '../assets/images/arrow.svg';
 import { Link } from 'react-router-dom';
 import About from './About'
-// import Contact from './Contact';
-// import Projects from './Projects';
+import Contact from './Contact';
 
-const Body = () => {
+const Home = () => {
   return (
     <div>
     <div className="body-container">
       <Container>
         <Row className="first-row">
-          {/* Left Column for Text Content */}
           <Col lg={6} md={12}>
             <div className="content text-left d-flex flex-column justify-content-center">
               <h1 className="display-4">
@@ -29,12 +27,8 @@ const Body = () => {
               </Link>
             </div>
           </Col>
-
-          {/* Right Column for the Image */}
-          <Col lg={6} md={12} className="text-center">
-            <div className="image-container">
+          <Col lg={6} md={12} className="text-center image-col">
               <img src={yourImage} alt="liam-hackett" className="image" />
-            </div>
           </Col>
         </Row>
         <Row>
@@ -45,7 +39,6 @@ const Body = () => {
         </Col>
         </Row>
       </Container>
-      {/* Social Media Icons */}
       <div className="social-icons">
         <hr className="vertical-hr"></hr>
         <a
@@ -69,11 +62,10 @@ const Body = () => {
       <div id="about">
         <About></About>
       </div>
-      {/* <Projects></Projects> */}
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </div>
     
   );
 };
 
-export default Body;
+export default Home;

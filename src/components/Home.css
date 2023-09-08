@@ -38,6 +38,7 @@
     color: white;
     margin: 30px; 
     width: 100px;
+    overflow: hidden;
   }
   
   .icon {
@@ -87,7 +88,9 @@
     border: 1px solid rgb(248, 196, 111);
   }
 
-
+  .image-col {
+    background-color: rgba(0, 0, 0, 0);
+  }
 .down-arrow { 
   opacity: .25;
   height: 100px;
@@ -107,4 +110,18 @@
     width: 300px;
     height: 300px;
   }
+  .arrow-col {
+    opacity: 0;
+  }
+  .name{
+    font-size: 40px;
+  }
 }
+
+@media screen and (max-width: 750px) {
+  .image{
+    width: 200px;
+    height: 200px;
+  }
+}
+
