@@ -32,3 +32,20 @@ You don't have to ever use eject. The curated feature set is suitable for small 
 # initialize
 1 - npm install
 2 - npm run start
+
+NOTES:
+
+Need to fix site for on an iPad 
+    Project page when vertical
+    Skills When vertical
+    Move github and linkedin links and line when on a smaller device
+    Center portrait and main text on the home page (iPad and iPhone)
+    Fix resume size on iPhone
+
+Add text for projects and about
+Add pages or links to projects with descriptions/demos
+Put Artist website on a separate pages doc and link to it
+Decide what I want the skill cards to do (maybe link to github pages with projects)
+
+Maybe make all project images black and white
+Clean up folders

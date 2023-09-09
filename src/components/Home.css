@@ -110,8 +110,8 @@
     width: 300px;
     height: 300px;
   }
-  .arrow-col {
-    opacity: 0;
+  .arrow-row {
+    display: none;
   }
   .name{
     font-size: 40px;
@@ -119,9 +119,30 @@
 }
 
 @media screen and (max-width: 750px) {
+  .body-container{
+    padding: 0;
+    overflow-y: hidden;
+  }
   .image{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .social-icons{
+    display: none;
+  }
+  .container {
+    overflow: hidden;
   }
 }
 
+@media screen and (max-width: 400px) {
+  .image{
+    width: 300px;
+    height: 300px;
+  }
+  .body-container{
+    padding: 0;
+  }
+  
+}

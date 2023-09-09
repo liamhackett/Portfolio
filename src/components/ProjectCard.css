@@ -7,8 +7,7 @@
     background-position: center;
     overflow: hidden;
     margin-top: 25px;
-    /* border: 1px solid rgba(248, 196, 111, .75); */
-    /* border-radius: 1em; */
+    
 }
 
 .artist-site {
@@ -66,12 +65,6 @@
   @media screen and (max-width: 1250px) {
     .project-card{
         margin: 10px auto;
-    }
-  }
-
-  @media screen and (max-width: 750px) {
-    .project-card{
-        width: 390px;
-        margin: 10px auto;
+        width: 350px;
     }
   }
