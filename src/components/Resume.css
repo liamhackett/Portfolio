@@ -16,3 +16,10 @@
         height: 700px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .resume{
+        height: 600px;
+    }
+}
+

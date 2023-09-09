@@ -106,15 +106,21 @@
 }
 
 @media screen and (max-width: 1250px) {
+  .body-container{
+    overflow: hidden;
+  }
   .image {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
   }
   .arrow-row {
     display: none;
   }
   .name{
     font-size: 40px;
+  }
+  .social-icons{
+    display: none;
   }
 }
 
@@ -134,6 +140,9 @@
   .container {
     overflow: hidden;
   }
+  .arrow-row {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -143,6 +152,9 @@
   }
   .body-container{
     padding: 0;
+  }
+  .arrow-row {
+    display: none;
   }
   
 }

@@ -38,9 +38,6 @@ NOTES:
 Need to fix site for on an iPad 
     Project page when vertical
     Skills When vertical
-    Move github and linkedin links and line when on a smaller device
-    Center portrait and main text on the home page (iPad and iPhone)
-    Fix resume size on iPhone
 
 Add text for projects and about
 Add pages or links to projects with descriptions/demos

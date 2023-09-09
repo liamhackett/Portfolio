@@ -104,7 +104,7 @@ const Home = () => {
             </Col>
           </Row>
           <Row className="arrow-row">
-            <Col xs={1} className="arrow-col">
+            <Col xs={1} className="arrow-col arrow-row">
               <a href="#about" className="scroll-link">
                 <img src={arrow} alt="Arrow" className="down-arrow" />
               </a>
