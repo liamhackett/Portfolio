@@ -35,10 +35,6 @@ You don't have to ever use eject. The curated feature set is suitable for small 
 
 NOTES:
 
-Need to fix site for on an iPad 
-    Project page when vertical
-    Skills When vertical
-
 Add text for projects and about
 Add pages or links to projects with descriptions/demos
 Put Artist website on a separate pages doc and link to it
@@ -46,3 +42,4 @@ Decide what I want the skill cards to do (maybe link to github pages with projec
 
 Maybe make all project images black and white
 Clean up folders
+Make skill cards larger on larger screens/fix things on larger screens

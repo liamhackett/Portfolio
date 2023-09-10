@@ -67,7 +67,7 @@ const SkillList = () => {
 const skills = [react, javaScript, html, css, git, sql, python, swift, cpp, java];
     
 const skillCards = skills.map((skill, index) => (
-    <div key={index} className="skill-card">
+    <div key={index}>
       <SkillCard skill={skill} />
     </div>
   ));
