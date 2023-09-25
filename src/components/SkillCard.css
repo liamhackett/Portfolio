@@ -30,7 +30,7 @@
 
 
 
-.skill-card:hover{
+/* .skill-card:hover{
     background-color: rgb(248, 196, 111);
 }
 .skill-card:hover .card-image{
@@ -39,7 +39,7 @@
 .skill-card:hover .card-text{
     background-color: rgb(248, 196, 111);
     color: #282c34 !important;
-}
+} */
 
 .grid-cover{
     display: flex;
@@ -137,8 +137,8 @@
   }
 
   .skill-card {
-    width: 250px !important;
-    height: 250px;
+    width: 225px !important;
+    height: 225px;
     padding: 0; 
     margin: 0; 
     margin: 10px;

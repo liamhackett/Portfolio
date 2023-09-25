@@ -12,6 +12,7 @@ import gitImage from './images/git.png';
 import swiftImage from './images/swift.svg';
 import cppImage from './images/cpp.png';
 import javaImage from './images/java.svg';
+import nodeImage from "./images/nodejs.png";
 
 
 const SkillList = () => {
@@ -62,9 +63,13 @@ const SkillList = () => {
         name: "Java",
         picture: javaImage
     }
+    const node = {
+        name: "Node.js",
+        picture: nodeImage,
+    }
     
     
-const skills = [react, javaScript, html, css, git, sql, python, swift, cpp, java];
+const skills = [react, javaScript, html, css, git, sql, python, swift, cpp, java, node];
     
 const skillCards = skills.map((skill, index) => (
     <div key={index}>

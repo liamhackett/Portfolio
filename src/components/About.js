@@ -9,29 +9,21 @@ const About = () => {
       <Row>
         <hr className="divider" />
       </Row>
+      <div className="center-about">
         <Row>
           <Col>
             <h1 className="about-title">About</h1>
-          </Col>
-        </Row>
-        <Row>
-        <Col xs="1">
-          <hr className="horizontal-hr"/>
-        </Col>
-          <Col>
             <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              auctor convallis metus, in lacinia elit euismod at. Integer
-              feugiat turpis id justo eleifend, a bibendum nunc iaculis.
-              Vestibulum non enim nec justo efficitur elementum. Proin sit amet
-              justo nec elit cursus egestas. Duis quis lacus elit. Sed bibendum
-              eros in est tristique, sed volutpat mi hendrerit. Integer in
-              mauris quis tellus ultricies condimentum. Nulla facilisi. Sed vel
-              eros et urna cursus scelerisque. Nunc a auctor elit, non sodales
-              lectus. Suspendisse potenti.
+            I am a recent graduate from the University of Vermont with a degree in Computer Science, 
+            deeply passionate about web development. My journey into the world of web development began 
+            with a Zero to Mastery web development course, where I honed my skills and discovered my 
+            love for creating <span className="text-highlight">visually appealing and user-friendly</span> websites and applications. 
+            I enjoy the creative process of turning ideas into beautiful digital experiences 
+            that people can enjoy and benefit from.
             </p>
           </Col>
         </Row>
+        </div>
         <Row>
           <div className="skills">
             <h1>My Skills</h1>
