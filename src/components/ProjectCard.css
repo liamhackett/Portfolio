@@ -58,13 +58,14 @@
     background: inherit;
     text-decoration: none;
 }
+
 .button-container {
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(0,0,0,0);
-    
 }
+
 .btn-custom-card {
     background-color: rgb(248, 196, 111) !important; 
     color: #282c34 !important; 
