@@ -9,7 +9,10 @@
     align-items: center;
     flex-direction: column;
   }
-
+  .about-col {
+    width: 60%;
+    padding: 0 5%;
+  }
   .about-title {
     margin-left: 20px;
     margin-top: 5vh;
@@ -38,3 +41,13 @@
     width: 100vw;
     border-top: solid 2px rgb(248, 196, 111);
   }
+
+@media (max-width: 1000px) { 
+  .about-col {
+    width: 100%;
+    padding: 0 5%;
+  }
+  .description {
+    max-width: 90vw;
+  }
+}

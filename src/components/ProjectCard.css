@@ -78,8 +78,28 @@
     background-color: rgba(248, 196, 111, .8) !important; 
 
   }
-  
+  @media screen and (max-width: 1450px) {
+    .project-card{
+        margin: 10px auto;
+        width: 350px;
+    }
+
+    .project-text-box{
+        width: 350px; 
+    }
+  }
   @media screen and (max-width: 1250px) {
+    .project-card{
+        margin: 10px auto;
+        width: 300px;
+    }
+
+    .project-text-box{
+        width: 300px; 
+    }
+  }
+
+  @media screen and (max-width: 985px) {
     .project-card{
         margin: 10px auto;
         width: 350px;
