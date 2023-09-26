@@ -1,8 +1,7 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './Projects.css';
-import ProjectCard from './ProjectCard';
-// import Contact from './Contact';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "./Projects.css";
+import ProjectCard from "./../ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (

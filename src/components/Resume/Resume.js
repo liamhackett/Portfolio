@@ -1,6 +1,6 @@
-import resume from './../assets/images/resume.jpg';
-import React from 'react';
-import './Resume.css';
+import resume from "./../../assets/images/resume.jpg";
+import React from "react";
+import "./Resume.css";
 
 
 const Resume = () => {

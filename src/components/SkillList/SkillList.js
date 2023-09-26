@@ -1,18 +1,18 @@
-import React from 'react';
-import SkillCard from './SkillCard'; // Import the SkillCard component
-import './SkillCard.css'
+import React from "react";
+import SkillCard from "./../SkillCard/SkillCard"; // Import the SkillCard component
+import "./../SkillCard/SkillCard.css";
 
-import pythonImage from './images/python.png';
-import reactImage from './images/react.svg';
-import javaScriptImage from './images/javascript.png';
-import htmlImage from './images/html.svg';
-import cssImage from './images/css.svg';
-import sqlImage from './images/sql.png';
-import gitImage from './images/git.png';
-import swiftImage from './images/swift.svg';
-import cppImage from './images/cpp.png';
-import javaImage from './images/java.svg';
-import nodeImage from "./images/nodejs.png";
+import pythonImage from "./../images/python.png";
+import reactImage from "./../images/react.svg";
+import javaScriptImage from "./../images/javascript.png";
+import htmlImage from "./../images/html.svg";
+import cssImage from "./../images/css.svg";
+import sqlImage from "./../images/sql.png";
+import gitImage from "./../images/git.png";
+import swiftImage from "./../images/swift.svg";
+import cppImage from "./../images/cpp.png";
+import javaImage from "./../images/java.svg";
+import nodeImage from "./../images/nodejs.png";
 
 
 const SkillList = () => {

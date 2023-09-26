@@ -1,5 +1,5 @@
-import React from 'react';
-import './SkillCard.css'
+import React from "react";
+import "./SkillCard.css"
 
 function SkillCard({ skill }) {
     return (

@@ -1,6 +1,6 @@
-import React from 'react';
-import './ProjectCard.css'
-import { Button } from 'react-bootstrap';
+import React from "react";
+import "./ProjectCard.css"
+import { Button } from "react-bootstrap";
 function ProjectCard({ className, title, description, link, github }) {
     return (
         <div className={`project-card ${className}`}>

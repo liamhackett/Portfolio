@@ -1,7 +1,7 @@
-import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import './About.css';
-import SkillList from './SkillList';
+import React from "react";
+import { Container, Row } from "react-bootstrap";
+import "./About.css";
+import SkillList from "./../SkillList/SkillList";
 
 const About = () => {
   return (

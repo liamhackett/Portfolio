@@ -1,7 +1,7 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom'; 
-import './Nav.css';
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom"; 
+import "./Nav.css";
 
 const NavBar = () => {
   return (
@@ -14,7 +14,6 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggle" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto shift">
-            {/* <NavLink to="/about" className="nav-link" activeclassname="active">About</NavLink>  */}
             <NavLink to="/projects" className="nav-link" activeclassname="active">Projects</NavLink> 
             <NavLink to="/resume" className="nav-link" activeclassname="active">Resume</NavLink> 
           </Nav>

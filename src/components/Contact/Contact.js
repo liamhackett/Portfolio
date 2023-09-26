@@ -1,8 +1,8 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone, faMapMarker} from '@fortawesome/free-solid-svg-icons';
-import './Contact.css';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone, faMapMarker} from "@fortawesome/free-solid-svg-icons";
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -53,7 +53,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="contact-icon"
             >
-              <FontAwesomeIcon icon={['fab', 'github']} size="3x" className="" />
+              <FontAwesomeIcon icon={["fab", "github"]} size="3x" className="" />
             </a>
           </Col>
           <Col xs="auto" className="px-2">
@@ -63,7 +63,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="contact-icon"
             >
-              <FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" className="" />
+              <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" className="" />
             </a>
           </Col>
         </Row>
