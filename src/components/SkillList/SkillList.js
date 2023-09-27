@@ -48,7 +48,7 @@ const SkillList = () => {
     const sql = {
         name: "SQL",
         picture: sqlImage,
-        description: "Took a course on databases and SQL at UVM. Incorporated postgresql into the SmartBrain Project's server."
+        description: "Took a course on databases and SQL at UVM. Incorporated database into the server for SmartBrain."
     }
     
     const git = {
