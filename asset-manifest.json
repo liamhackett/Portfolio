@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1b9aa06d.css",
+    "main.css": "/portfolio/static/css/main.a81f99dd.css",
     "main.js": "/portfolio/static/js/main.1f616d10.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/liam-hackett.png": "/portfolio/static/media/liam-hackett.6af54b1eb6e3224b07d5.png",
@@ -20,12 +20,12 @@
     "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/react.svg": "/portfolio/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.aac0e834d6f4340d4eca9f79de0089c5.svg",
-    "main.1b9aa06d.css.map": "/portfolio/static/css/main.1b9aa06d.css.map",
+    "main.a81f99dd.css.map": "/portfolio/static/css/main.a81f99dd.css.map",
     "main.1f616d10.js.map": "/portfolio/static/js/main.1f616d10.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b9aa06d.css",
+    "static/css/main.a81f99dd.css",
     "static/js/main.1f616d10.js"
   ]
 }
