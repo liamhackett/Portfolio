@@ -9,6 +9,9 @@
     min-height: 50vh; 
     
   }
+  h1{
+    overflow: hidden;
+  }
   
   .contact-card {
     display: flex;

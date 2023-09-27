@@ -4,7 +4,9 @@
     justify-content: center;
     flex-direction: column;
 }
-
+h1{
+    overflow: hidden;
+}
 .resume{
     height: 1000px;
     margin-bottom: 5vh;
