@@ -9,7 +9,7 @@
   margin-bottom: 10px;
   overflow: hidden;
   cursor: default;
-  transition: filter 0.3s, transform 0.3s;
+  transition: filter 1s, transform 1s;
   position: relative;
 }
 

@@ -16,7 +16,7 @@ const About = () => {
               I am a recent graduate from the University of Vermont with a degree in Computer Science, 
               deeply passionate about web development. My journey into the world of web development began 
               with a <a href={certificate} target="_blank" rel="noreferrer"><span className="text-highlight">Zero to Mastery web development course</span></a>, where I honed my skills and discovered my 
-              love for creating visually appealing and user-friendlywebsites and applications. 
+              love for creating visually appealing and user-friendly websites and applications. 
               I enjoy the creative process of turning ideas into beautiful digital experiences 
               that people can enjoy and benefit from.
               </p>
