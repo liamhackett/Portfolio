@@ -18,7 +18,7 @@ const Home = () => {
             <Col lg={6} md={12}>
               <div className="content text-left d-flex flex-column justify-content-center">
                 <h1 className="display-4">
-                  <span className="smaller-text">I"m</span> <span className="name">Liam Hackett</span>
+                  <span className="smaller-text">I'm</span> <span className="name">Liam Hackett</span>
                 </h1>
                 <p className="lead">
                   A recent University of Vermont graduate<br></br>and aspiring web developer
